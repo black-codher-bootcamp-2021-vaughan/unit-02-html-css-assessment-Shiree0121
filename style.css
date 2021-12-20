@@ -1,7 +1,7 @@
 *{
-    margin: 0;
-    padding 0;
     box-sizing: border-box;
+    margin: 0px;
+    
 }
 
 /* Navbar */
@@ -20,7 +20,7 @@
 }
 .navbar ul li{
         font-family: century;
-        font-size: 1.1rem
+        font-size: 1.1rem;
         font-weight: bold;
 }
 .navbar ul li a{
@@ -70,6 +70,13 @@
     font-size: 5rem;
     text-align: center;
     margin: 80px 0px;
+    outline-style: solid;
+    outline-color: darksalmon;
+    outline-width: 80px;
+}
+.headings::before{
+    background-color: #bb9059; 
+    content:'';
 }
 .btn{
     padding: 10px 35px;
@@ -87,7 +94,7 @@
     font-weight: bold;
 }
 
-/* About Section */ 8.49
+/* About Section */ 
 #about{
     display: flex;
     flex-direction: column;
@@ -95,8 +102,7 @@
     padding: 20px;
     margin-bottom: 90px;
     background-color: gray;
-    background-color: rgb(228, 203, 173);
-    
+    background-color: rgb(228, 203, 173);  
 }
 #pic{
     display: flex;
@@ -111,17 +117,29 @@
     text-align: justify;
     padding: 10px;
 }
-
+#id{
+    border-style: solid;
+    border-color: darksalmon;;
+    margin-bottom: 20px;
+    border-width: thick;
+}
 #intro h2{
     font-size: 2rem;
     margin-bottom: 20px;
 }    
+#greybox{
+    background-color: gray;
+    padding: 20px;
+    border-top-style: solid;
+    border-top-width: 70px;
+    border-top-color: gray;
+}
 .timeline{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     padding: 20px;
-    margin-bottom: 90px;
+    margin-bottom: 70px;
     background-color: gray;
 }
 .spac-timeline {
